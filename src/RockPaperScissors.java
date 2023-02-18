@@ -34,6 +34,7 @@ public class RockPaperScissors {
                     System.out.println("This is an invalid input, please restart and try again.");
                 }
             }
+            //Output For P1 "P"
             else if (player1.equalsIgnoreCase("P"))
             {
                 if (player2.equalsIgnoreCase("R")) {
@@ -46,6 +47,7 @@ public class RockPaperScissors {
                     System.out.println("This is an invalid input, please restart and try again.");
                 }
             }
+            //Output For P1 "S"
             else if (player1.equalsIgnoreCase("S"))
             {
                 if (player2.equalsIgnoreCase("R")) {
@@ -60,7 +62,7 @@ public class RockPaperScissors {
             }
             else
                 System.out.println("This is an invalid input, please restart and try again.");
-            //Output
+            //Output If Invalid
             System.out.println("Would you like to play again? Please enter Y for yes and N for no.");
             restart = in.nextLine();
         }
